@@ -1,5 +1,5 @@
 # Final project graphs
-This project aims to implement an application that finds the way with the lowest rates to switch from one currency to another.
+This project aims to implement an application that autocomplete a search bar.
 
 ```bash
   
