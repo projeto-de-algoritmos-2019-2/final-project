@@ -1,3 +1,2 @@
-psycopg2>=2.8, <2.9
-Django>=2.2, <2.3
-Pillow>=6.1, <6.2
+pygame == 1.9.6
+notifyr == 1.1
