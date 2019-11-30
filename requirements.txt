@@ -1,2 +1,4 @@
 pygame == 1.9.6
 notifyr == 1.1
+autocomplete==0.0.104
+fast-autocomplete
