@@ -15,10 +15,12 @@
   <a href="#how-to-use">How To Use</a> •
 </p>
 
-## PRINTS / GIFS
+## Results
 
 <p align="center">
-  <img src="static/apple_stocks.png">
+
+  [![Google++](static/yt.png)](https://youtu.be/icYBiJe6IBM)
+
 </p>
 
 **List Number**: 6<br>
@@ -45,10 +47,38 @@ Dynamic Programming, divide to conquer)
 
 ## What we did
 
-[Detailed Description about what we did]
+This project was based on 2 other projects.
+
+The first is the [autocomplete](https://github.com/rodricios/autocomplete) developed by [rodricios](https://github.com/rodricios/). In this project, an autocompletion is developed based on the stochastic model [Markov chain](https://en.wikipedia.org/wiki/Markov_chain) where each word is likely to occur according to its predecessors.
+
+The second project is the [fast-autocomplete](https://github.com/wearefair/fast-autocomplete) developed by [wearefair](https://github.com/wearefair). In this project an autofill is developed using a
+Directed Word Graph ([DWG](https://thedeveloperblog.com/directed-acyclic-word-graph)) and [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance).
+
+Based on these two projects an autocomplete was developed that accepts small typos, which understands the context and calculates the probability of the next word.
 
 ## How To Use
 
-[Detailed Description about how run the project]
+```bash
+# Clone this repository
+$ git clone https://github.com/projeto-de-algoritmos-2019-2/project-6-google-plus-plus google-plus-plus
+
+# Install virtualenv
+$ sudo pip3 install virtualenv
+
+# Create a env
+$ virtualenv -p python3 env
+
+# Activate the env
+$ source env/bin/activate
+
+# Install the requirements
+$ pip install -r requirements.txt
+
+# get in google-plus-plus directory
+$ cd google-plus-plus
+
+# Run the application
+$ python app.py
+```
 
 created by [Durval Carvalho](https://github.com/durvalcarvalho) and [Victor Moura](https://github.com/victorcmoura)
