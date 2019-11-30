@@ -1,5 +1,6 @@
 import pygame as pg
 import notifyr
+from trie import Trie
 
 
 pg.init()
@@ -8,11 +9,11 @@ COLOR_INACTIVE = pg.Color('lightskyblue3')
 COLOR_ACTIVE = pg.Color('dodgerblue2')
 FONT = pg.font.Font(None, 32)
 
+trie = None
 global_word_list = []
 
 def predict_words(wrd):
-    l = ['salve', 'opa']
-    return l
+    return trie.search(wrd)[:10]
 
 def update_list():
     h = 50
@@ -69,6 +70,9 @@ def main():
     input_box1 = InputBox(10, 10, 480, 32)
     input_boxes = [input_box1]
     done = False
+
+    global trie
+    trie = Trie(data="carros.txt")
 
     while not done:
         for event in pg.event.get():
