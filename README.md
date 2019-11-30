@@ -24,7 +24,7 @@
 </p>
 
 **List Number**: 6<br>
-**Course Content**: Grafos<br>
+**Course Content**: Grafos (+ algum template)<br>
 
 ## Students
 | Matrícula  | Aluno                              |
@@ -37,7 +37,7 @@
 This project was developed for the discipline
 **Algorithm Project** of FGA College in the semester 02/2019.
 
-This project aims to develop a autocompletion tool,
+This project aims to develop a **autocompletion tool**,
 which will generate a word list according to the context
 entered by the user.
 
